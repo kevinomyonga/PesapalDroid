@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PesapalDroid Demo</string>
+    <string name="app_author_email">info@kevinomyonga.com</string>
+    <string name="action_settings">Settings</string>
+    <string name="consumer_key">5YdStNngOcXH1okWpKSwrcp/JSWa3Zm5</string>
+    <string name="consumer_secret">0vO8ufXiYlTy8EpqCm/kvHo4qZ4=</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="description">Description</string>
+    <string name="amount">Amount</string>
+    <string name="proceed">Proceed to Portal</string>
+    <string name="fname_required">First Name Required</string>
+    <string name="lname_required">Last Name Required</string>
+    <string name="email_required">Email Address Required</string>
+    <string name="phone_required">Phone Number Required</string>
+    <string name="desc_required">Description Required</string>
+    <string name="amount_required">Amount Required</string>
+    <string name="about_the_project">This project is intended to show an example of how you can utilize the PesapalDroid library in your project.\n\n
+    Visit my github repo to find out how you can integrate it.\n\n
+    Enjoy.</string>
+    <string name="github">Github</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="donate">Buy Developer a Coffee</string>
+    <string name="names">Names</string>
+    <string name="contacts">Contacts</string>
+    <string name="transaction_details">Transaction Details</string>
+    <string name="amount_warning">For purposes of this demo, use amounts between 1 and 1000</string>
+    <string name="about">About</string>
+</resources>

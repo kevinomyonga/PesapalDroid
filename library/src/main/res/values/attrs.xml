@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PesapalDroidFragment">
+        <attr name="consumer_key" format="string"/>
+        <attr name="consumer_secret" format="string"/>
+        <attr name="is_demo" format="boolean"/>
+        <attr name="is_mobile" format="boolean"/>
+    </declare-styleable>
+</resources>

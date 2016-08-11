@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PesapalDroid</string>
+    <string name="app_logo">App Logo</string>
+    <string name="error_message">Error Message</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading&amp;#8230</string>
+</resources>
