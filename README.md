@@ -1,6 +1,12 @@
 # PesapalDroid
 A simple library to grant access to the Pesapal payment portal on the android platform.
 
+
+##Preview
+### Demo
+Try out the app here: 
+
+### Screenshots
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample1.png)
 
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample2.png)
@@ -12,7 +18,21 @@ A simple library to grant access to the Pesapal payment portal on the android pl
 Head over to the Pesapal website to register and get the Consumer Key and Consumer Secret.
 
 ### 2. Provide the gradle dependency
-```xml
+Project build.gradle
+```Java
+allprojects {
+ repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+ }
+}
+```
+
+app build.gradle
+```Java
+dependencies {
+    compile 'com.kevinomyonga.pesapaldroid:library:1.0.0'
+}
 ```
 
 ### 3. Initialize the fragment
