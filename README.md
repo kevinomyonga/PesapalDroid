@@ -5,7 +5,19 @@ A simple library to grant access to the Pesapal payment portal on the android pl
 
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample2.png)
 
-## Initialize - Xml
+
+## Setup
+
+### 1. Get the Keys
+Head over to the Pesapal website to register and get the Consumer Key and Consumer Secret.
+
+### 2. Provide the gradle dependency
+```xml
+```
+
+### 3. Initialize the fragment
+
+#### Xml
 ```xml
 <fragment xmlns:pesapal="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
@@ -19,7 +31,7 @@ A simple library to grant access to the Pesapal payment portal on the android pl
         tools:layout="@layout/fragment_main" />
 ```
 
-## Initialize - Java
+#### Java
 ```Java
         PesapalDroidFragment pesapalDroidFragment = new PesapalDroidFragment();
         pesapalDroidFragment.setConsumerKey(getString(R.string.consumer_key));
@@ -33,7 +45,8 @@ A simple library to grant access to the Pesapal payment portal on the android pl
                 .commit();
 ```
 
-## Passing values to the portal
+## Additional Setup
+### Passing values to the portal
 ```Java
         //Pass the buyer details
         pesapalDroidFragment.setfName(args.getString("fname"));
@@ -43,3 +56,6 @@ A simple library to grant access to the Pesapal payment portal on the android pl
         pesapalDroidFragment.setDesc(args.getString("desc"));
         pesapalDroidFragment.setAmount(args.getString("amount"));
 ```
+
+
+### Attributions
