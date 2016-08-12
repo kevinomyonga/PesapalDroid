@@ -1,5 +1,5 @@
 # PesapalDroid
-A simple library to grant access to the Pesapal payment portal on the android platform.
+A simple library to grant easy access to the Pesapal portal on the android platform.
 
 
 ##Preview
