@@ -15,7 +15,6 @@ Try out the app here:
 
 ### Screenshots
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample1.png)
-
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample2.png)
 
 
