@@ -41,7 +41,7 @@ dependencies {
 }
 ```
 
-### 3. Initialize the fragment
+### 3. Declare the fragment
 #### Xml
 ```xml
 <fragment xmlns:pesapal="http://schemas.android.com/apk/res-auto"
@@ -55,6 +55,8 @@ dependencies {
         pesapal:is_mobile="true"
         tools:layout="@layout/fragment_main" />
 ```
+
+or
 
 #### Java
 ```Java
