@@ -19,6 +19,10 @@ Try out the app here:
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample2.png)
 
 
+##Target Platforms
+Android API level 9 or later.
+
+
 ## Setup
 ### 1. Get the Keys
 Head over to the Pesapal website (https://www.pesapal.com) to register as a merchant and get the Consumer Key and Consumer Secret.
@@ -73,8 +77,9 @@ or
         pesapalDroidFragment.setAmount(args.getString("amount"));
 ```
 
-## License
-This project is licensed under the Apache License - see the [LICENSE.md](https://raw.github.com/ImperiusRex/PesapalDroid/master/LICENSE.md) file for details.
-
 ## Acknowledgments
 Davide Parise bubini.mara5@gmail.com
+
+
+## License
+This project is licensed under the Apache License - see the [LICENSE.md](https://raw.github.com/ImperiusRex/PesapalDroid/master/LICENSE.md) file for details.
