@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import com.kevinomyonga.pesapaldroid.samples.R;
-import com.kevinomyonga.pesapaldroid.samples.activities.PaymentActivity;
+import com.kevinomyonga.pesapaldroid.samples.activities.PortalActivity;
 
 /**
  * Created by Kevin Omyonga on 8/11/2016.
@@ -78,7 +78,7 @@ public class DemoFormFragment extends Fragment {
                     return;
                 }
 
-                Intent i = new Intent(getActivity(), PaymentActivity.class);
+                Intent i = new Intent(getActivity(), PortalActivity.class);
                 i.putExtra("fname", etxtFName.getText().toString());
                 i.putExtra("lname", etxtLName.getText().toString());
                 i.putExtra("email", etxtEmail.getText().toString());

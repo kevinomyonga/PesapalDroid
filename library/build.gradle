@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'pesapaldroid'
+
+    publishedGroupId = 'com.kevinomyonga.pesapaldroid'
+    libraryName = 'PesapalDroid'
+    artifact = 'library'
+
+    libraryDescription = 'A simple library to grant easy access to the Pesapal portal on the android platform.'
+
+    siteUrl = 'https://github.com/ImperiusRex/PesapalDroid'
+    gitUrl = 'https://github.com/ImperiusRex/PesapalDroid.git'
+
+    libraryVersion = '1.0.0'
+
+    developerId = 'imperiusrex'
+    developerName = 'Kevin Omyonga'
+    developerEmail = 'komyonga@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "23.0.2"
@@ -26,5 +50,9 @@ dependencies {
     compile files('libs/signpost-core-1.2.1.2.jar')
     compile files('libs/commons-codec-1.10.jar')
 }
+
+// Place it at the end of the file
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
 
 

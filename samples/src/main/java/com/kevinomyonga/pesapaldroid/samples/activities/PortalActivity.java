@@ -16,7 +16,7 @@ import com.kevinomyonga.pesapaldroid.samples.R;
 /**
  * Created by Kevin Omyonga on 12/15/2015.
  */
-public class PaymentActivity extends AppCompatActivity {
+public class PortalActivity extends AppCompatActivity {
 
     String fname, lname, email, phone, desc, amount;
 
