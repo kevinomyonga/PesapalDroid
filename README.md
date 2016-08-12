@@ -24,17 +24,6 @@ Try out the app here:
 Head over to the Pesapal website (https://www.pesapal.com) to register as a merchant and get the Consumer Key and Consumer Secret.
 
 ### 2. Provide the gradle dependency
-Project build.gradle
-```Java
-allprojects {
- repositories {
-    jcenter()
-    maven { url "https://jitpack.io" }
- }
-}
-```
-
-app build.gradle
 ```Java
 dependencies {
     compile 'com.kevinomyonga.pesapaldroid:library:1.0.0'
