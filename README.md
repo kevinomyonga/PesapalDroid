@@ -4,6 +4,7 @@ A simple library to grant easy access to the Pesapal portal on the android platf
 
 ##Preview
 ### Demo
+Click below to watch a quick demo.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8ujMHTt90LU
 " target="_blank"><img src="http://img.youtube.com/vi/8ujMHTt90LU/0.jpg" 
