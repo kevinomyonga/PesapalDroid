@@ -6,6 +6,8 @@ A simple library to grant access to the Pesapal payment portal on the android pl
 ### Demo
 Try out the app here: 
 
+ *[![Play Store Badge](https://developer.android.com/images/brand/en_app_rgb_wo_60.png)](https://play.google.com/store/apps/details?id=com.kevinomyonga.pesapaldroid.samples)*
+
 ### Screenshots
 ![ScreenShot](https://raw.github.com/ImperiusRex/PesapalDroid/master/screenshots/sample1.png)
 
@@ -13,9 +15,8 @@ Try out the app here:
 
 
 ## Setup
-
 ### 1. Get the Keys
-Head over to the Pesapal website to register and get the Consumer Key and Consumer Secret.
+Head over to the Pesapal website (https://www.pesapal.com) to register and get the Consumer Key and Consumer Secret.
 
 ### 2. Provide the gradle dependency
 Project build.gradle
@@ -36,7 +37,6 @@ dependencies {
 ```
 
 ### 3. Initialize the fragment
-
 #### Xml
 ```xml
 <fragment xmlns:pesapal="http://schemas.android.com/apk/res-auto"
@@ -77,5 +77,4 @@ dependencies {
         pesapalDroidFragment.setAmount(args.getString("amount"));
 ```
 
-
-### Attributions
+## Acknowledgments
