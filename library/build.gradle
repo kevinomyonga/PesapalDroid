@@ -1,8 +1,4 @@
 apply plugin: 'com.android.library'
-// Required plugin in library module
-apply plugin: 'com.github.dcendents.android-maven'
-// Replace with <your_github_username>
-group='com.github.ImperiusRex'
 
 android {
     compileSdkVersion 24
@@ -30,3 +26,5 @@ dependencies {
     compile files('libs/signpost-core-1.2.1.2.jar')
     compile files('libs/commons-codec-1.10.jar')
 }
+
+
