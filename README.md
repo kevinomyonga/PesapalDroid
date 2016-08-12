@@ -82,4 +82,4 @@ Davide Parise bubini.mara5@gmail.com
 
 
 ## License
-This project is licensed under the Apache License - see the [LICENSE.md](https://raw.github.com/ImperiusRex/PesapalDroid/master/LICENSE) file for details.
+This project is licensed under the Apache License - see the [LICENSE](https://raw.github.com/ImperiusRex/PesapalDroid/master/LICENSE) file for details.
