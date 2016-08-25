@@ -6,8 +6,8 @@ A simple library to grant easy access to the Pesapal portal on the android platf
 ### Demo
 Click below to watch a quick demo.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=8ujMHTt90LU
-" target="_blank"><img src="http://img.youtube.com/vi/8ujMHTt90LU/0.jpg" 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=C7UQXoZi9j8
+" target="_blank"><img src="http://img.youtube.com/vi/C7UQXoZi9j8/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="512" height="360" border="10" /></a>
 
 Try out the app here: 
